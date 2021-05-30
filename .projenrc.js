@@ -10,16 +10,16 @@ const project = new AwsCdkConstructLibrary({
   // cdkDependencies: undefined,        /* Which AWS CDK modules (those that start with "@aws-cdk/") does this library require when consumed? */
   // cdkTestDependencies: undefined,    /* AWS CDK modules required for testing. */
   deps: [
-    'constructs@10.0.0',
+    'constructs@10.0.5',
     'aws-cdk-lib@2.0.0-rc.5',
   ] /* Runtime dependencies of this module. */,
   // description: undefined,            /* The description is just a string that helps people understand the purpose of the package. */
   devDeps: [
-    'constructs@10.0.0',
+    'constructs@10.0.5',
     'aws-cdk-lib@2.0.0-rc.5',
   ] /* Build dependencies for this module. */,
   peerDeps: [
-    'constructs@10.0.0',
+    'constructs@10.0.5',
     'aws-cdk-lib@2.0.0-rc.5',
   ],
   // packageName: undefined,            /* The "name" in package.json. */
