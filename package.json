@@ -1,5 +1,6 @@
 {
   "name": "aws-lambda-golang-cdk-v2",
+  "description": "CDK construct for golang files",
   "repository": {
     "type": "git",
     "url": "https://github.com/kochie/aws-lambda-golang-cdk-v2.git"
