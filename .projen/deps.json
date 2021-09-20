@@ -2,7 +2,7 @@
   "dependencies": [
     {
       "name": "@aws-cdk/assert",
-      "version": "^2.0.0-rc.5",
+      "version": "^2.0.0-rc.21",
       "type": "build"
     },
     {
@@ -11,7 +11,7 @@
     },
     {
       "name": "@types/node",
-      "version": "^10.17.0",
+      "version": "^14.17.0",
       "type": "build"
     },
     {
@@ -24,12 +24,7 @@
     },
     {
       "name": "aws-cdk-lib",
-      "version": "2.0.0-rc.5",
-      "type": "build"
-    },
-    {
-      "name": "constructs",
-      "version": "10.0.5",
+      "version": "2.0.0-rc.21",
       "type": "build"
     },
     {
@@ -83,13 +78,7 @@
       "type": "build"
     },
     {
-      "name": "npm-check-updates",
-      "version": "^11",
-      "type": "build"
-    },
-    {
       "name": "projen",
-      "version": "^0.18.13",
       "type": "build"
     },
     {
@@ -107,7 +96,7 @@
     },
     {
       "name": "aws-cdk-lib",
-      "version": "2.0.0-rc.5",
+      "version": "2.0.0-rc.21",
       "type": "peer"
     },
     {
@@ -116,18 +105,13 @@
       "type": "peer"
     },
     {
-      "name": "constructs",
-      "version": "10.0.5",
-      "type": "peer"
-    },
-    {
       "name": "aws-cdk-lib",
-      "version": "2.0.0-rc.5",
+      "version": "2.0.0-rc.21",
       "type": "runtime"
     },
     {
       "name": "constructs",
-      "version": "10.0.5",
+      "version": "^10.0.5",
       "type": "runtime"
     }
   ],
