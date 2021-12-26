@@ -1,34 +1,27 @@
 {
   "dependencies": [
     {
-      "name": "@aws-cdk/assert",
-      "version": "^2.0.0-rc.21",
-      "type": "build"
-    },
-    {
       "name": "@types/jest",
       "type": "build"
     },
     {
       "name": "@types/node",
-      "version": "^14.17.0",
+      "version": "^12",
       "type": "build"
     },
     {
       "name": "@typescript-eslint/eslint-plugin",
+      "version": "^5",
       "type": "build"
     },
     {
       "name": "@typescript-eslint/parser",
+      "version": "^5",
       "type": "build"
     },
     {
       "name": "aws-cdk-lib",
-      "version": "2.0.0-rc.21",
-      "type": "build"
-    },
-    {
-      "name": "eslint",
+      "version": "2.3.0",
       "type": "build"
     },
     {
@@ -44,12 +37,17 @@
       "type": "build"
     },
     {
+      "name": "eslint",
+      "version": "^8",
+      "type": "build"
+    },
+    {
       "name": "jest",
       "type": "build"
     },
     {
       "name": "jest-junit",
-      "version": "^12",
+      "version": "^13",
       "type": "build"
     },
     {
@@ -65,16 +63,12 @@
       "type": "build"
     },
     {
-      "name": "jsii-pacmak",
-      "type": "build"
-    },
-    {
       "name": "json-schema",
       "type": "build"
     },
     {
       "name": "npm-check-updates",
-      "version": "^11",
+      "version": "^12",
       "type": "build"
     },
     {
@@ -96,7 +90,7 @@
     },
     {
       "name": "aws-cdk-lib",
-      "version": "2.0.0-rc.21",
+      "version": "^2.3.0",
       "type": "peer"
     },
     {
@@ -106,12 +100,12 @@
     },
     {
       "name": "aws-cdk-lib",
-      "version": "2.0.0-rc.21",
+      "version": "2.3.0",
       "type": "runtime"
     },
     {
       "name": "constructs",
-      "version": "^10.0.5",
+      "version": "^10.0.13",
       "type": "runtime"
     }
   ],
