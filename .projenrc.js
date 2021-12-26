@@ -1,8 +1,8 @@
-const { AwsCdkConstructLibrary, ProjectType } = require('projen');
-const project = new AwsCdkConstructLibrary({
+const { awscdk } = require('projen');
+const project = new awscdk.AwsCdkConstructLibrary({
   author: 'Robert Koch',
   authorAddress: 'robert@kochie.io',
-  cdkVersion: '2.0.0-rc.21',
+  cdkVersion: '2.3.0',
   defaultReleaseBranch: 'main',
   name: 'aws-lambda-golang-cdk-v2',
   repositoryUrl: 'https://github.com/kochie/aws-lambda-golang-cdk-v2.git',
