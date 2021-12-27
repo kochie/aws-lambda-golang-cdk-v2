@@ -9,16 +9,18 @@ const project = new awscdk.AwsCdkConstructLibrary({
 
   // cdkDependencies: undefined,        /* Which AWS CDK modules (those that start with "@aws-cdk/") does this library require when consumed? */
   // cdkTestDependencies: undefined,    /* AWS CDK modules required for testing. */
-  deps: [
-    'aws-cdk-lib@2.3.0',
-    'constructs@^10.0.13',
-  ] /* Runtime dependencies of this module. */,
+  // deps: [
+  //   'aws-cdk-lib@2.3.0',
+  //   // 'constructs@^10.0.13',
+  // ] /* Runtime dependencies of this module. */,
   description:
     'CDK construct for golang files' /* The description is just a string that helps people understand the purpose of the package. */,
-  devDeps: [
-    'aws-cdk-lib@2.3.0',
-  ] /* Build dependencies for this module. */,
-  peerDeps: ['aws-cdk-lib@2.3.0'],
+  // devDeps: [
+  //   'aws-cdk-lib@2.3.0',
+  // ] /* Build dependencies for this module. */,
+  // peerDeps: [
+  //   'constructs@^10.0.13',
+  // ] /* Peer dependencies of this module. */,
   packageName: 'aws-lambda-golang-cdk-v2' /* The "name" in package.json. */,
   // projectType: ProjectType  /* Which type of project this is (library/app). */
   // releaseWorkflow: undefined,        /* Define a GitHub workflow for releasing from "main" when new versions are bumped. */
